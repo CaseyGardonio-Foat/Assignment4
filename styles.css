@@ -59,25 +59,26 @@ time, mark, audio, video, header {
     src: url(./Assignment4/Assignment4Images/Fonts/parfumerie_script_regular.otf)
 }
 
-
 body {
     font-family: Quicksand;
 }
 
 header {
-    padding: 25px 150px
+    padding: 25px 200px
 }
 
 nav {
-    padding: 0px 150px
+    background-color: aqua;
+    padding: 10px 200px
 }
 
 li {
-    display: inline
+    display: inline;
+    color: black
 }
 
 article {
-    padding: 10px 150px
+    padding: 10px 200px
 }
 
 h2 {
@@ -85,6 +86,18 @@ h2 {
     font-weight: bold;
     margin: 30px 0px 30px;
 }
+
+footer {
+    padding: 25px 200px
+}
+
+#logo {
+    width: 500px
+}
+/* .photo_divider {
+    width: 100%
+    max-width: 942px
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
