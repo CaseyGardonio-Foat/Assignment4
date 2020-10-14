@@ -61,7 +61,10 @@ time, mark, audio, video, header {
 
 body {
     font-family: Quicksand;
-    background-image: url(./Assignment4/Assignment4Images/roses_side_borders_1024-01);
+    width: 100%;
+    height: 100%;
+    background-image: url(./Assignment4Images/roses_side_borders_1024-01.jpg);
+    background-size: contain;
 }
 
 header {
@@ -71,13 +74,13 @@ header {
 
 #logo {
     padding: 25px 200px;
-    position: center
 }
 
 nav {
-    background-color:  #A4DAD7;
+    background-color:  #ffe19d ;
     opacity: 0.75;
-    padding: 10px 200px
+    padding: 10px 200px;
+    text-align: center;
 }
 
 li {
@@ -95,7 +98,6 @@ article {
 
 h2 {
     font-size: 30px;
-    font-weight: bold;
     margin: 30px 0px 30px;
 }
 
