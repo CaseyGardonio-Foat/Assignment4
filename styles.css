@@ -64,17 +64,28 @@ body {
 }
 
 header {
-    padding: 25px 200px
+    background-image: url(./Assignment4Images/roses_header-01.jpg);
+    height: 100%;
+    position: center;
+}
+
+#logo {
+    padding: 25px 200px;
+    position: center
 }
 
 nav {
     background-color: aqua;
+    opacity: 0.5;
     padding: 10px 200px
 }
 
 li {
     display: inline;
-    color: black
+    color: black;
+    opacity: 1;
+    margin-left: 10px;
+    margin-right: 10px
 }
 
 article {
@@ -88,6 +99,12 @@ h2 {
 }
 
 footer {
+    background-image: url(./Assignment4Images/roses_footer-01.jpg);
+    height: 100%;
+    position: center;
+}
+
+#copyright_info {
     padding: 25px 200px
 }
 
