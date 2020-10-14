@@ -64,8 +64,20 @@ body {
     font-family: Quicksand;
 }
 
+header {
+    padding: 25px 150px
+}
+
+nav {
+    padding: 0px 150px
+}
+
+li {
+    display: inline
+}
+
 article {
-    padding: 150px
+    padding: 10px 150px
 }
 
 h2 {
