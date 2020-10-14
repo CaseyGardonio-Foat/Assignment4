@@ -61,10 +61,10 @@ time, mark, audio, video, header {
 
 body {
     font-family: Quicksand;
+    background-image: url(./Assignment4/Assignment4Images/roses_side_borders_1024-01);
 }
 
 header {
-    background-image: url(./Assignment4Images/roses_header-01.jpg);
     height: 100%;
     position: center;
 }
@@ -89,7 +89,8 @@ li {
 }
 
 article {
-    padding: 25px 200px
+    width: 750px;
+    margin: auto
 }
 
 h2 {
@@ -99,8 +100,6 @@ h2 {
 }
 
 footer {
-    background-image: url(./Assignment4Images/roses_footer-01.jpg);
-    /*where did this go?!?!?!?*/
     height: 100%;
     position: center;
 }
